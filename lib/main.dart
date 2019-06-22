@@ -45,7 +45,7 @@ class _State extends State<MyApp>{
               autofocus: true,
               // keyboardType: TextInputType.number,
               keyboardType: TextInputType.text,
-
+              //param digantikan oleh keyboar type, jadi tidak perlu param
               onChanged: _onChanged,
               onSubmitted: _onSubmit,
             )
